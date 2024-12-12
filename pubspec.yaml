@@ -1,0 +1,35 @@
+name: rdp_todolist
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.8.1
+  table_calendar: ^3.1.2
+  cloud_firestore: ^5.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/rdplogo.png
+    - assets/suistar.png
+    - assets/sui.gif
+
+  fonts:
+    - family: Caveat
+      fonts:
+       - asset: assets/Caveat-Regular.ttf
+    - family: Chicago
+      fonts:
+       - asset: assets/ChicagoFLF.ttf
