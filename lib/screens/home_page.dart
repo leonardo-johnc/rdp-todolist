@@ -261,7 +261,7 @@ Widget buildAddTaskSection(nameController, addTask) {
                 ),
               ),
             ),
-          ), //
+          ),
         ],
       ),
     ),
@@ -318,7 +318,8 @@ Widget buildTaskList(tasks, removeTasks, updateTask) {
               ),
               IconButton(
                 icon: const Icon(Icons.delete),
-                onPressed: () => removeTasks(index),
+                onPressed: () => removeTasks(
+                    index), //deletes task when pressed the garbage bin icon
               ),
             ],
           ),
