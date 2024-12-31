@@ -3,11 +3,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:rdp_todolist/screens/home_page.dart';
 import 'firebase_options.dart';
 
-
 void main() async {
 //initialize flutter bondings
   WidgetsFlutterBinding.ensureInitialized();
-
 
   //intialize flutter with the current platform's default options
   await Firebase.initializeApp(
